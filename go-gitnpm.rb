@@ -1,9 +1,7 @@
 require 'formula'
 
-HOMEBREW_GITNPM_VERSION = '0.1.0'
-class GoGitNpm < Formula
+class GoGitnpm < Formula
   homepage 'https://github.com/yosuke-furukawa/go-gitnpm/'
-  version HOMEBREW_GITNPM_VERSION
 
   if Hardware.is_64_bit?
     url "http://dl.bintray.com/yosuke-furukawa/go-gitnpm/go-gitnpm_0.1.0_darwin_amd64.zip"
